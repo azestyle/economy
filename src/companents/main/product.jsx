@@ -6,7 +6,7 @@ import CategoryButton from "./cartcompanent/categorybutton";
 function ProductSection() {
   const [cart, setCart] = useState([...cartArray]);
 
-  console.log(cart);
+
 
 
 

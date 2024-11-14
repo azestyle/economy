@@ -1,6 +1,6 @@
 import React from "react";
 
-function Cart({objects,gettocart}){
+function Cart({objects,getToCart}){
     return(
         <div className="cart-div">
           <div className="product-img">
@@ -15,7 +15,7 @@ function Cart({objects,gettocart}){
              </div>   
             <div className="product-buttons">
                 <button><a href="#">Buy Now</a></button>
-                <button onClick={()=>gettocart(objects)}>Add to Cart</button>
+                <button onClick={()=>getToCart(objects)}>Add to Cart</button>
             </div>
         </div>
     )
